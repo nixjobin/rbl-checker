@@ -1,6 +1,6 @@
 #!/bin/bash
 #Author  : Jobin Joseph
-#Website : JobinJoseph.com
+#Bio	 : JobinJoseph.com
 #Blog    : www.AWSadminz.com
 ###############################
 
