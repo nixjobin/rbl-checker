@@ -8,4 +8,4 @@ Commands
 * curl
 
 ### How to Install
-<pre>cd /etc/cron.hourly && wget https://raw.githubusercontent.com/nixjobin/rbl-checker/master/nixhive-rblchecker.sh -O awsadminz-rblchecker.sh && chmod +x awsadminz-rblchecker.sh </pre>
+<pre>cd /etc/cron.hourly && wget https://raw.githubusercontent.com/nixjobin/rbl-checker/master/nixhive-rblchecker.sh -O nixhive-rblchecker.sh && chmod +x nixhive-rblchecker.sh </pre>
