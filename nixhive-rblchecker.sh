@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author  : Jobin Joseph
 #Bio	 : JobinJoseph.com
-#Blog    : www.AWSadminz.com
+#Blog    : www.nixhive.com
 ###############################
 
 # You can copy this script in /etc/cron.hourly or via a crontab entry.
