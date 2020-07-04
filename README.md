@@ -1,6 +1,6 @@
 # rbl-checker
 
-##### Made By: [Jobin Joseph](https://JobinJoseph.com) [JobinJoseph.com](https://JobinJoseph.com) [nixhive.com](https://nixhive.com)
+##### Made By: [Jobin Joseph](https://JobinJoseph.com) - [JobinJoseph.com](https://JobinJoseph.com) [nixhive.com](https://nixhive.com)
 
 
 ### Requirements
