@@ -1,8 +1,8 @@
 # rbl-checker
 
-#Made By: Jobin Joseph
-#JobinJoseph.com
-#www.nixhive.com
+#Made By: [Jobin Joseph](https://JobinJoseph.com)
+#[JobinJoseph.com](https://JobinJoseph.com)
+#[nixhive.com](https://nixhive.com)
 
 
 ### Requirements
