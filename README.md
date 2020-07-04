@@ -12,7 +12,7 @@ Commands
 
 Now the script will run every hour on from your server.
 
-#### Email Notification
+### Email Notification
 
 Replace the below one with your email address on the script.
 
