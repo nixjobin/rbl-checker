@@ -1,5 +1,10 @@
 # rbl-checker
 
+#Made By: Jobin Joseph
+#JobinJoseph.com
+#www.nixhive.com
+
+
 ### Requirements
 The script will work on any Linux Operating system
 
