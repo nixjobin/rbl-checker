@@ -13,7 +13,7 @@ JMAIL="your-email-id@gmail.com"
 
 
 #checking against RBL's
-for JIP in `ifconfig|grep "inet addr" |awk '{print $2}'|cut -d":" -f2 |egrep -v "^10\.|^127\."` ; do
+for JIP in `ifconfig -a|grep "inet " |awk '{print $2}'|cut -d":" -f2 |egrep -v "^10\.|^127\.|^192\.168\."` ; do
 JOP=`curl http://rbl-check.org/rbl_api.php?ipaddress=$JIP |egrep -v "notlisted|INPS" | grep -i "listed"`
 
 if [ $? -eq 0 ] ; then
