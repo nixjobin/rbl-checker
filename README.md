@@ -3,7 +3,7 @@
 ##### Made By: [Jobin Joseph](https://JobinJoseph.com) - [JobinJoseph.com](https://JobinJoseph.com) [nixhive.com](https://nixhive.com)
 
 
-### Requirements
+### Prerequisites
 The script will work on any Linux Operating system
 
 Commands
