@@ -10,7 +10,7 @@ Commands
 ### How to Install
 <pre>cd /etc/cron.hourly && wget https://raw.githubusercontent.com/nixjobin/rbl-checker/master/nixhive-rblchecker.sh -O nixhive-rblchecker.sh && chmod +x nixhive-rblchecker.sh </pre>
 
-Now the script will run every hour on from your server.
+Now the script will run every hour on your server.
 
 ### Email Notification
 
