@@ -8,10 +8,12 @@
 # This script will list the available / configured IPs on the server and will check against 40+ RBLs.
 # Thanks to rbl-check.org for the API
 
-JBIPS=/tmp/blacklistedip
+################################
+# replace your email id here
 JMAIL="your-email-id@gmail.com"
+################################
 
-
+JBIPS=/tmp/blacklistedip
 #checking against RBL's
 for JIP in `ifconfig|grep "inet addr" |awk '{print $2}'|cut -d":" -f2 |egrep -v "^10\.|^127\."` ; do
 JOP=`curl http://rbl-check.org/rbl_api.php?ipaddress=$JIP |egrep -v "notlisted|INPS" | grep -i "listed"`
