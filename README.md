@@ -6,7 +6,7 @@
 ### Prerequisites
 The script will work on any Linux Operating system
 
-Commands
+##### Commands
 * ifconfig
 * curl
 
