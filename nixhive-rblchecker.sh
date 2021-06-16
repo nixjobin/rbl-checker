@@ -15,8 +15,8 @@ JMAIL="your-email-id@gmail.com"
 
 JBIPS=/tmp/blacklistedip
 #checking against RBL's
-for JIP in `ifconfig|grep "inet addr" |awk '{print $2}'|cut -d":" -f2 |egrep -v "^10\.|^127\."` ; do
-JOP=`curl http://rbl-check.org/rbl_api.php?ipaddress=$JIP |egrep -v "notlisted|INPS" | grep -i "listed"`
+for JIP in `ifconfig|grep "inet" |awk '{print $2}'|cut -d":" -f2 |egrep -v "^10\.|^127\."` ; do
+JOP=`curl https://rbl-check.org/rbl_api.php?ipaddress=$JIP |egrep -v "notlisted|INPS" | grep -i "listed"`
 
 if [ $? -eq 0 ] ; then
 touch $JBIPS
